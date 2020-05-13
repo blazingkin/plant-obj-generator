@@ -1,0 +1,14 @@
+
+constructor Obj(vertices, faces)
+
+    :serialize
+        result = ""
+        vertices.each(v -> (result = result + "v " + v + "\n"))
+        result = result + "\n"
+
+        for i = 0; i < faces.size(); i++
+            result = result + "f " + faces[0] + "// " + faces[1] + "// " + faces[2] + "//\n"  
+        end
+    end
+
+end

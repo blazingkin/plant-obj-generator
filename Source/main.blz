@@ -1,0 +1,6 @@
+require point3
+require obj
+
+:main
+    print(Point3(1, 2, 3))
+end

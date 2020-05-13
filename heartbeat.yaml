@@ -1,0 +1,9 @@
+name: plant-obj-generator
+version: 0.1.0
+deps:
+  dev:
+#    devPackage: {min: 0.1.0, max: latest}
+  test:
+#    testPackage: {min: 0.1.0, max: latest}
+  prod:
+#    example: {min: "", max: 2.0}

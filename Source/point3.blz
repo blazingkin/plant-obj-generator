@@ -1,0 +1,9 @@
+
+
+constructor Point3(x, y, z)
+
+    :show
+        x + " " + y + " " + z
+    end
+
+end
